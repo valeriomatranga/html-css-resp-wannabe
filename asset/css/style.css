@@ -1,5 +1,5 @@
 .row {
-  width: 992px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -8,8 +8,8 @@
 /* BLOCCO LEZIONI */
 #lezioni .row>.left,
 #lezioni .row>.right {
-  width: 50%;
-  float: left;
+/*   width: 50%;
+ */  float: left;
 }
 
 #lezioni .row img {
@@ -28,8 +28,8 @@
 #steps .row>.central,
 #steps .row>.right {
   float: left;
-  width: 33%;
-}
+/*   width: 33%;
+ */}
 
 #steps {
   text-align: center;
@@ -72,7 +72,7 @@ img {
   clear: both;
 }
 /* small dispositivo */
-@media screen and (max-width: 420px){
+@media screen and (max-width: 767px){
   
   *{box-sizing: border-box;
     margin: 0;
